@@ -89,7 +89,9 @@ aws sts get-caller-identity
   참고: https://docs.aws.amazon.com/ko_kr/eks/latest/userguide/getting-started-eksctl.html
   EKS요금 시간당 0.10USD  + t3.medium 시간 0.416 *2 USD 입니다.
   [Managed nodes – Linux] 탭 선택후 사용설명확인
- eksctl 명령을 실행해서 Amazon EKS 클러스터를 생성한다.  
+ eksctl 명령을 실행해서 Amazon EKS 클러스터를 생성한다.
+
+ [ shift + insert키를 눌러서 입력 ]
   $ eksctl create cluster \
     --name k8s-demo \
     --region ap-northeast-2 \
